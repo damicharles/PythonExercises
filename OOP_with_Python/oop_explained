@@ -1,0 +1,34 @@
+Inheritance:
+    Inheritance is the process by which one class takes on the attributes
+    and methods of another class.
+    Newly formed classes are called Child Classes, and the classes that
+    Child Classes are derived from are called Parent Class.
+
+    Child Classes inherit all of the parent's attributes and methods but can also extend and override
+    attributes and methods that are unique to themselves.
+
+Polymorphism:
+    "Many Shapes"
+
+    We can write a code that works on the super class, and it will work with
+    any subclass type as well. Gives a way to use a class exactly like its parent,
+    but each child class keeps its own methods as they are.
+
+Encapsulation:
+    Encapsulation is the mechanism of hiding of data implementation
+    Instance variables are kept private and accessor methods are made public to achieve this.
+    With this, we restrict access to public methods (getter ad setter)
+
+    Instance methods can also be kept private
+    name_ (This means a pythonista must know that when an underscore follows a variable, it means the
+    variable is private but really, nothing is truly private.)
+
+Abstraction:
+    Abstraction can be thought of as a natural extension of encapsulation.
+    Applying abstraction means that each object should only expose a high
+    level mechanism for using it.
+    This mechanism should hide internal implementation details.
+
+    It should only reveal operations relevant for the other objects.
+
+    To read more about mangling in python (self__name = name)
